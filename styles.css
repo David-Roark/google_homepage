@@ -1,0 +1,71 @@
+/* Basic */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3em;
+  
+}
+main {
+  flex: 1 0 auto;
+  text-align: center;
+}
+footer {
+  background: #caf3f3;
+  text-align: center;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+li {
+  list-style: none;
+  padding: 5px; 
+}
+a {
+  text-decoration: none;
+  color: #272323
+}
+a:hover {
+  color: lightslategray;
+  font-weight: bolder;
+}
+/* Navbar top */
+.navbar-top {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.icon-square {
+  height: 1.5em;
+}
+
+.sign-in-button {
+  background-color: rgb(1, 164, 240);
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  font-weight: bolder;
+  color: aliceblue;
+}
+.sign-in-button:hover {
+  background-color: rgb(185, 218, 245);
+  font-weight: bolder;
+}
+/*  Main body */
+.main-body {
+  
+}
+.google-logo {
+  margin-top: 100px;
+}
+.google-search {
+  padding: 5%;
+}
+/* Navbar bottom */
+.navbar-bottom {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 0.7em;
+}
