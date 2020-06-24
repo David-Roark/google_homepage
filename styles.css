@@ -40,7 +40,9 @@ a:hover {
 .icon-square {
   height: 1.5em;
 }
-
+.icon-square:hover {
+  opacity: 0.5;
+}
 .sign-in-button {
   background-color: rgb(1, 164, 240);
   border-radius: 10px;
@@ -53,9 +55,6 @@ a:hover {
   font-weight: bolder;
 }
 /*  Main body */
-.main-body {
-  
-}
 .google-logo {
   margin-top: 100px;
 }
