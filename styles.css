@@ -42,6 +42,7 @@ a:hover {
 }
 /* Navbar top */
 .navbar-top {
+  float: right;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,8 +61,8 @@ a:hover {
 }
 .sign-in-button {
   background-color: rgb(1, 164, 240);
-  border-radius: 10px;
-  padding: 0.5em 1em;
+  border-radius: 0px;
+  padding: 0.4em 1em;
   font-weight: bolder;
   color: aliceblue;
 }
@@ -71,10 +72,18 @@ a:hover {
 }
 /*  Main body */
 .google-logo {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 .google-search {
   padding: 5%;
+}
+.search-box, .search-button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 5px;
+}
+.search-button:hover {
+  opacity: 0.5;
 }
 /* Navbar bottom */
 .navbar-bottom {
